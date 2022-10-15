@@ -1,0 +1,36 @@
+html, body {
+    // font-family: "Lato", sans-serif;
+    // font-size: 16px;
+    // min-height: 100%;
+    // cursor:none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.cursor{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    transition: transform .3s ease;
+    pointer-events: none;
+    transform-origin: center center;
+    z-index: 1000;
+}
+.grow, .grow-small {
+    transform: scale(6);
+    background: #BC9C7A;
+    mix-blend-mode: difference;
+    border: none;
+    // transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+.grow-small{
+    transform: scale(1)
+}
