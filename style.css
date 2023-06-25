@@ -561,9 +561,9 @@ footer {
     .section {
         background-color: #141414;
         width: 100vw;
-        height: 100vh;
         padding: 0rem;
         padding-top: 5rem;
+        overflow: visible;
     }
 
     .boxes-container {
@@ -1070,6 +1070,7 @@ footer {
         padding-top: 7rem;
         padding-left: 5rem;
         padding-right: 5rem;
+        overflow: visible;
     }
 
     .boxes-container {
