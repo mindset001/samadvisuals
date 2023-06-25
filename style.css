@@ -557,7 +557,7 @@ footer {
     .fa-arrow-right-long {
         transform: translateX(50px);
     }
-
+ 
     .section {
         background-color: #141414;
         width: 100vw;
@@ -659,8 +659,6 @@ footer {
     }
 
     .line {
-        height: 1px;
-        width: 50px;
         background-color: rgba(255, 255, 255, .1);
         margin: 2rem 0;
         display: none;
